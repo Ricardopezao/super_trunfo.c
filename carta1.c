@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
     
-    char estado,código, cidade;
+    char estado [2];
+    char codigo[2];
+    char cidade [8];
     int população;
     float área;
     float PIB;
@@ -9,31 +11,34 @@ int main(){
 
 
     printf("digite estado\n");
-
     scanf("%s" ,&estado);
 
     printf("digite código\n");
-
     scanf("%s" ,&código);
 
     printf("digite cidade\n");
-
     scanf("%s" ,&cidade);
 
     printf("digite população\n");
-
-    scanf("%d" ,&população);
+    canf("%d" ,&população);
 
     printf("digite área\n");
-
-    scanf("%f" ,&área);
+    canf("%f" ,&área);
 
     printf("digite PIB");
-
-    scanf("%f" ,&PIB);
+    canf("%f" ,&PIB);
 
     printf("digite turisticos\n");
-
-    scanf("%d" ,&turisticos); }
+    canf("%d" ,&turisticos);
 
     return 0;
+
+
+
+}
+
+
+
+
+
+    
